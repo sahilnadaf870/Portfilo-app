@@ -1,0 +1,78 @@
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sahil Nadaf's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav-container">
+      <h1 class="logo">Sahil Nadaf</h1>
+      <nav>
+        <ul>
+          <li onclick="showSection('home')">Home</li>
+          <li onclick="showSection('about')">About</li>
+          <li onclick="showSection('projects')">Projects</li>
+          <li onclick="showSection('contact')">Contact</li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="section active">
+      <div class="container center">
+        <h2>Hello 👋</h2>
+        <p>I'm <strong>Sahil Nadaf</strong>, a passionate web developer building clean & elegant websites.</p>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>I specialize in responsive web apps using HTML, CSS, JavaScript, and frameworks like React. I love turning ideas into real-world applications.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>Counter app</h3>
+            <p>A simple yet powerful task manager built with vanilla JavaScript.</p>
+            <a href="counter.html" class="btn" target="_blank" rel="noopener noreferrer">View Project</a>            
+
+            <a href="https://sahilnadaf870.github.io/counter/" class="btn btn-secondary" target="_blank">GitHub</a>
+          </div>
+
+          <div class="project-card">
+            <h3>Booking App</h3>
+            <p>Booking app to hostels and etc.</p>
+            <a href="bookindex.html" class="btn" target="_blank">View Project</a>
+            <a href="https://sahilnadaf870.github.io/bookindex" class="btn btn-secondary" target="_blank">GitHub</a>
+         
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container center">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:youremail@example.com">nadafsahil113@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/sahilnadaf870" target="_blank">github.com/sahilnadaf870</a></p>
+         <p>Mobile number: <a href="Mobile Number" target="_blank">6360658897</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Sahil Nadaf. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
